@@ -2,7 +2,7 @@
 # WLMDS Combine
 
 ### Status
-This project is completed, but not actively being maintained. This was completed as an adhoc piece of work and as such, could definitely be improved upon goven some more time / resource.
+This project is completed, but not actively being maintained. This was completed as an adhoc piece of work and as such, could definitely be improved upon given some more time / resource.
 
 ### About the project
 All the Waitlist MDS submission files live in the Corrected Submissions folder with one submission file for each week. This repo contains a script which selects the latest version of the OpenPathways submission files for each week and combines them into one table that is output as a .csv file (for manual import into the data warehouse) or a pickle file for further analysis in python.
