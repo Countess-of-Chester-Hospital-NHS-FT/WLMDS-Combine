@@ -3,12 +3,12 @@ import pandas as pd
 import os
 
 ########### Specify the filepath #################################################
-# If reading in filepath from a .txt file (if using git)
-filepath_file = pd.read_csv("filepath.txt", header=None)
-filepath = filepath_file.iloc[0, 0]
-
 # If enetering the filepath directly (if not using git)
-#filepath = ""
+filepath = r""
+
+# If reading in filepath from a .txt file (if planning on pushing back to git and you want to keep the filepath hidden)
+#filepath_file = pd.read_csv("filepath.txt", header=None)
+#filepath = filepath_file.iloc[0, 0]
 
 ########## List all the files in the folder #######################################
 files = os.listdir(filepath)
